@@ -45,6 +45,7 @@ fog()
 	        SetExpFog(0.0002, 0, 0.8, 0.8, 0); // lughtblue
 	        wait .5;
 		//add more
+		//SetExpFog(distance, red, gree, blue, transition time);
 	
 	    }
 }
