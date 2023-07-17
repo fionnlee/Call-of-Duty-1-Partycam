@@ -37,5 +37,14 @@ _start()
 
 fog()
 {
-
+	for(;;)
+	    {   
+	        wait .5; 
+	        SetExpFog(0.0002, 1, 1, 0.3, 0); // yellow
+	        wait .5;
+	        SetExpFog(0.0002, 0, 0.8, 0.8, 0); // lughtblue
+	        wait .5;
+		//add more
+	
+	    }
 }
